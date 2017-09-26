@@ -6,7 +6,7 @@
 body {
     background-image: url("Images/fond1080.jpg");
     font-family: orbitron-black, sans-serif;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 section {
@@ -19,20 +19,25 @@ section {
     color: #5ACCF2;
 }
 
+div {
+    width: 420px;
+    height: 200px;
+    margin: auto;
+    border: solid 1px; /* Bordures de test */
+}
+
 a {
     width: 400px;
     height: 150px;
-    padding: auto;
+    color: #5ACCF2;
     border-radius: 10px 50px 10px 50px;
     border: solid #5ACCF2 2px;
-    color: #5ACCF2;
-    margin: 15px;
+    margin: auto;
+    padding-left: 20px;
     transition-property: box-shadow;
     transition-duration: 300ms;
 }
 
 a:hover {
-    /*border: solid #5ACCF2 5px;
-    margin: 11px;*/
     box-shadow: #5ACCF2 15px 6px 15px;
 }
