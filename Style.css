@@ -21,23 +21,29 @@ section {
 
 div {
     width: 420px;
-    height: 200px;
+    height: 300px;
     margin: auto;
-    border: solid 1px; /* Bordures de test */
+    padding: 0px;
+    /*border: solid 1px;  Bordures de test */
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
 }
 
 a {
-    width: 400px;
-    height: 150px;
+    width: 300px;
+    height: 100px;
     color: #5ACCF2;
     border-radius: 10px 50px 10px 50px;
     border: solid #5ACCF2 2px;
     margin: auto;
     padding-left: 20px;
-    transition-property: box-shadow;
+    transition-property: box-shadow width height;
     transition-duration: 300ms;
 }
 
 a:hover {
+    width: 400px;
+    height: 250px;
     box-shadow: #5ACCF2 15px 6px 15px;
 }
