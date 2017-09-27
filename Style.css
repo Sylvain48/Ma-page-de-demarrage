@@ -4,9 +4,14 @@
 }
 
 body {
-    background-image: url("Images/fond1080.jpg");
+    background-image: url("Images/galaxy.jpg");
     font-family: orbitron-black, sans-serif;
     font-size: 2em;
+}
+
+img {
+    width: auto;
+    height: auto;
 }
 
 section {
